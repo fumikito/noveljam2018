@@ -6,7 +6,7 @@
 
 まずは[Githubのアカウント](https://www.google.co.jp/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=0ahUKEwjv0cSR443ZAhWDS7wKHRadALoQFghgMAg&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AOvVaw0H9TK-nu7JfXaoNeNMgJEk)を作成してください。
 
-梗概は [summary.md](https://github.com/fumikito/noveljam2018/blob/master/summary.md) に、投稿本文は [manuscript.md](https://github.com/fumikito/noveljam2018/blob/master/manuscript.md) に、記載されます。
+梗概は [summary.md](https://github.com/fumikito/noveljam2018/blob/master/summary.md) に、投稿本文は [manuscript.txt](https://github.com/fumikito/noveljam2018/blob/master/manuscript.txt) に、記載されます。
 
 これらに対し、[イシュー](https://github.com/fumikito/noveljam2018/issues)を立てたり、 [プルリクエスト](https://github.com/fumikito/noveljam2018/pulls)または直接コメントを書いたりしてください。
 
@@ -22,7 +22,7 @@ textlintを利用して校正ツールを設定しています。
 
 ```
 npm install
-npm test manuscript.md
+npm test manuscript.txt
 ```
 
 ## ライセンス
