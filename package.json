@@ -1,0 +1,22 @@
+{
+  "name": "noveljam2018",
+  "version": "1.0.0",
+  "description": "NovelJam 2018 work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fumikito/noveljam2018.git"
+  },
+  "keywords": [
+    "novel"
+  ],
+  "author": "fumikito",
+  "license": "SEE LICENSE IN README.md",
+  "bugs": {
+    "url": "https://github.com/fumikito/noveljam2018/issues"
+  },
+  "homepage": "https://github.com/fumikito/noveljam2018#readme"
+}
