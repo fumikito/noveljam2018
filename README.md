@@ -8,13 +8,22 @@
 
 梗概は [summary.md](https://github.com/fumikito/noveljam2018/blob/master/summary.md) に、投稿本文は [manuscript.md](https://github.com/fumikito/noveljam2018/blob/master/manuscript.md) に、記載されます。
 
-これらに対し、[イシュー](https://github.com/fumikito/noveljam2018/issues)を立てたり、 [プルリクエスト](https://github.com/fumikito/noveljam2018/pulls)または直接コメントをお寄せください。
+これらに対し、[イシュー](https://github.com/fumikito/noveljam2018/issues)を立てたり、 [プルリクエスト](https://github.com/fumikito/noveljam2018/pulls)または直接コメントを書いたりしてください。
 
 それぞれのファイルを開いて、鉛筆マークをクリックすると、簡単にプルリクエストが作成できます。
 
 ## 変更を検知する
 
 この文書の変更を検知するには、ウォッチしてください。スターもいだたけると嬉しいです。それぞれ、画面右上の星ボタンや目玉ボタンから行えます。
+
+## 自動校正ツール
+
+textlintを利用して校正ツールを設定しています。
+
+```
+npm install
+npm test manuscript.md
+```
 
 ## ライセンス
 

@@ -1,0 +1,17 @@
+{
+  "rules": {
+    "max-ten": {
+      "max": 3
+    },
+    "general-novel-style-ja": {
+      "chars_leading_paragraph": false,
+   	  "max_arabic_numeral_digits": false
+    },
+    "ja-hiragana-keishikimeishi": true,
+    "ja-no-abusage": true,
+    "no-doubled-conjunction": true,
+    "no-doubled-conjunctive-particle-ga": true,
+    "no-doubled-joshi": true,
+    "prefer-tari-tari": true
+  }
+}
