@@ -8,9 +8,12 @@
 
 梗概は [summary.md](https://github.com/fumikito/noveljam2018/blob/master/summary.md) に、投稿本文は [manuscript.txt](https://github.com/fumikito/noveljam2018/blob/master/manuscript.txt) に、記載されます。
 
-これらに対し、[イシュー](https://github.com/fumikito/noveljam2018/issues)を立てたり、 [プルリクエスト](https://github.com/fumikito/noveljam2018/pulls)または直接コメントを書いたりしてください。
+これらに対し、[課題（issue）](https://github.com/fumikito/noveljam2018/issues)を立てたり、 [プルリクエスト](https://github.com/fumikito/noveljam2018/pulls)を送ってください。直接コメントを書いていただいても結構です。
 
-それぞれのファイルを開いて、鉛筆マークをクリックすると、簡単にプルリクエストが作成できます。
+それぞれのファイルを開いて、鉛筆マークをクリックすると、簡単にプルリクエストが作成できます。以下のYoutubeビデオを参考にしてください。
+
+[![Githubでブラウザからプルリクエストを送る](https://img.youtube.com/vi/zzDQ2bVDOCI/0.jpg)](https://www.youtube.com/watch?v=zzDQ2bVDOCI)
+
 
 ## 変更を検知する
 
@@ -27,4 +30,6 @@ npm test manuscript.txt
 
 ## ライセンス
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンス</a>の下に提供されています。
+ソースコードはMITライセンス、小説は<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンス</a>の下に提供されています。
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
