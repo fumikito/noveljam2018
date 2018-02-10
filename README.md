@@ -13,7 +13,7 @@
 
 表紙サイズは `w1447px × h2051px`
 
-## タイムスケジュール
+## タイムスケジュールi
 
 ![タイムテーブル](https://raw.githubusercontent.com/fumikito/noveljam2018/master/img/schedule-image.jpg)
 
