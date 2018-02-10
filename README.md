@@ -13,7 +13,7 @@
 
 ## タイムスケジュール
 
-![タイムテーブル](https://raw.githubusercontent.com/fumikito/noveljam2018/master/img/schedule.jpg)
+![タイムテーブル](https://raw.githubusercontent.com/fumikito/noveljam2018/master/img/schedule-image.jpg)
 
 ## 貢献方法
 
