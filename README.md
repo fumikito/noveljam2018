@@ -2,6 +2,19 @@
 
 [NovalJam 2018](https://www.noveljam.org)に著者として参加する高橋文樹のリポジトリです。
 
+## テーマ
+
+- **面白い短編小説** を一作品、会期中に完成させる。
+- 本文 3,000文字〜10,000文字
+- タイトルは16文字以内
+- キャッチコピーは32文字以内
+- 概要 100文字以内（あらすじのこと？）
+- 紹介文 400文字以内
+
+## タイムスケジュール
+
+![タイムテーブル](https://raw.githubusercontent.com/fumikito/noveljam2018/master/img/schedule.jpg)
+
 ## 貢献方法
 
 まずは[Githubのアカウント](https://www.google.co.jp/url?sa=t&rct=j&q=&esrc=s&source=web&cd=9&cad=rja&uact=8&ved=0ahUKEwjv0cSR443ZAhWDS7wKHRadALoQFghgMAg&url=https%3A%2F%2Fgithub.com%2Fjoin&usg=AOvVaw0H9TK-nu7JfXaoNeNMgJEk)を作成してください。
