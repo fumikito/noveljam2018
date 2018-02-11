@@ -32,8 +32,9 @@ ob_start();
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title><?= $title ?></title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="screen" />
+<link rel="stylesheet" href="./style.css" media="screen" />
+<link rel="stylesheet" href="./print.css" media="print" />
 </head>
 <body>
 <header>

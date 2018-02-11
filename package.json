@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "textlint",
-	"sass": "node-sass style.scss docs/style.css"
+	"sass": "node-sass scss/style.scss docs/style.css && node-sass scss/print.scss docs/print.css"
   },
   "repository": {
     "type": "git",
