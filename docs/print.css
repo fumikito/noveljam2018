@@ -11,6 +11,16 @@ header, footer {
 
 p {
   margin: 0;
-  line-height: 2;
+  line-height: 2.2;
   text-align: justify;
   text-justify: inter-ideograph; }
+
+blockquote {
+  line-height: 2.2;
+  margin: 0 0 0 2em;
+  padding: 0;
+  color: #444; }
+
+.right {
+  text-align: right;
+  color: #444; }

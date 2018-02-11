@@ -21,9 +21,22 @@ $content = preg_replace_callback( '/\[(.*?)\]/u', function( $match ) {
 	}
 	return $emphasized;
 }, $content );
-// 改行の中身を全部pタグに
+// 改行の中身を全部タグに変換
 $content = implode( "\n", array_map( function( $line ) {
-	return sprintf( '<p>%s</p>', $line );
+	$first_letter = mb_substr( $line, 0, 1, 'utf-8' );
+	$second_letters = function( $line ) {
+		return mb_substr( $line, 1, mb_strlen( $line ) - 1 );
+	};
+	switch ( $first_letter ) {
+		case '>':
+			return sprintf( '<blockquote>%s</blockquote>', $second_letters( $line ) );
+		case '<':
+			return sprintf( '<p class="right">%s</p>', $second_letters( $line ) );
+		case '':
+			return '<p>&nbsp;</p>';
+		default:
+			return sprintf( '<p>%s</p>', $line );
+	}
 }, explode( "\n", $content ) ) );
 ob_start();
 ?><!DOCTYPE html>

@@ -7,7 +7,7 @@ body{
 }
 
 $height: 40px;
-
+$tint: #444;
 .main{
 	height: 100%;
 	width: 100%;
@@ -18,8 +18,18 @@ $height: 40px;
 	text-orientation: tb-rl;
 	overflow: auto;
 	p{
-		line-height: 1.8;
+		line-height: 2.2;
 		margin: 0;
+	}
+	blockquote{
+		line-height: 2.2;
+		margin: 2em 0 0 0;
+		padding: 0;
+		color: $tint;
+	}
+	.right{
+		text-align: right;
+		color: $tint;
 	}
 }
 
