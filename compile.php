@@ -17,7 +17,6 @@ $content = preg_replace_callback( '/\[(.*?)\]/u', function( $match ) {
 	$emphasized = '';
 	for ( $i = 0, $l = mb_strlen( $letters, 'utf-8' ); $i < $l; $i++) {
 		$letter = mb_substr( $letters, $i, 1, 'utf-8' );
-		var_dump( $letter );
 		$emphasized .= sprintf( '<ruby>%s<rt>・</rt></ruby>', $letter );
 	}
 	return $emphasized;
