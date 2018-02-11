@@ -1,11 +1,10 @@
 #!/usr/bin/env php
 <?php
 
-list( $this_file, $title ) = $argv;
-
-if ( ! $title ) {
-	die( 'タイトルを指定してください' );
+if ( isset( $argv[1] ) ) {
+	die( 'タイトルは決定済みです。' );
 }
+$title = 'オートマティック　フェイラー';
 
 $path = __DIR__ . '/manuscript.txt';
 $title = htmlspecialchars( $title );
