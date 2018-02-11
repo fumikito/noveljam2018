@@ -4,7 +4,8 @@
   "description": "NovelJam 2018 work",
   "main": "index.js",
   "scripts": {
-    "test": "textlint"
+    "test": "textlint",
+	"sass": "node-sass style.scss docs/style.css"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,8 @@
     "textlint-rule-no-doubled-conjunctive-particle-ga": "^1.0.2",
     "textlint-rule-no-doubled-joshi": "^3.5.1",
     "textlint-rule-prefer-tari-tari": "^1.0.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.7.2"
   }
 }
