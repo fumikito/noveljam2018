@@ -4,7 +4,7 @@
 if ( isset( $argv[1] ) ) {
 	die( 'タイトルは決定済みです。' );
 }
-$title = 'オートマティック　フェイラー';
+$title = 'オートマティック クリミナル';
 
 $path = __DIR__ . '/manuscript.txt';
 $title = htmlspecialchars( $title );
