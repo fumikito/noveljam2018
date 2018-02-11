@@ -3,7 +3,7 @@ body, html {
 
 body {
   position: relative;
-  padding: 3cm; }
+  padding: 2cm; }
 
 header, footer {
   font-family: sans-serif;
@@ -11,4 +11,6 @@ header, footer {
 
 p {
   margin: 0;
-  line-height: 1.8; }
+  line-height: 2;
+  text-align: justify;
+  text-justify: inter-ideograph; }
