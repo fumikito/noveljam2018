@@ -32,6 +32,8 @@ $content = implode( "\n", array_map( function( $line ) {
 			return sprintf( '<blockquote>%s</blockquote>', $second_letters( $line ) );
 		case '<':
 			return sprintf( '<p class="right">%s</p>', $second_letters( $line ) );
+		case '~':
+			return sprintf( '<p class="center">%s</p>', $second_letters( $line ) );
 		case '':
 			return '<p>&nbsp;</p>';
 		default:
@@ -54,6 +56,11 @@ ob_start();
 <h1><?= $title ?></h1>
 </header>
 <div class="main">
+
+<h1 class="print-title">
+<?= $title ?>
+<small>高橋文樹</small>
+</h1>
 
 <?= $content ?>
 

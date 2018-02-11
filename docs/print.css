@@ -9,11 +9,21 @@ header, footer {
   font-family: sans-serif;
   display: none; }
 
+.print-title {
+  margin-top: 0; }
+  .print-title small {
+    font-size: 11pt;
+    display: block;
+    text-align: right; }
+
 p {
   margin: 0;
   line-height: 2.2;
   text-align: justify;
   text-justify: inter-ideograph; }
+
+.center {
+  text-align: center; }
 
 blockquote {
   line-height: 2.2;

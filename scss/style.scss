@@ -5,7 +5,9 @@ body, html{
 body{
 	position: relative;
 }
-
+.print-title{
+	display: none;
+}
 $height: 40px;
 $tint: #444;
 .main{
@@ -31,6 +33,10 @@ $tint: #444;
 		text-align: right;
 		color: $tint;
 	}
+	.center{
+		text-align: center;
+	}
+
 }
 
 header, footer{
