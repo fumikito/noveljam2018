@@ -3,9 +3,28 @@
   "version": "1.0.0",
   "description": "NovelJam 2018 work",
   "main": "index.js",
+  "watch": {
+    "sass":{
+      "patterns": [
+        "./scss"
+      ],
+      "extensions": "scss"
+    },
+    "compile": {
+      "patterns" : [
+        "."
+      ],
+      "extensions": "txt,php"
+    }
+  },
   "scripts": {
     "test": "textlint",
-	"sass": "node-sass scss/style.scss docs/style.css && node-sass scss/print.scss docs/print.css"
+    "sass": "node-sass scss/style.scss docs/style.css && node-sass scss/print.scss docs/print.css",
+    "compile": "./compile.php",
+    "watch:sass": "npm-watch sass",
+    "watch:manuscript": "npm-watch compile",
+    "watch": "npm-watch sass & npm-watch compile"
+
   },
   "repository": {
     "type": "git",
@@ -21,6 +40,7 @@
   },
   "homepage": "https://github.com/fumikito/noveljam2018#readme",
   "dependencies": {
+    "npm-watch": "^0.3.0",
     "textlint": "^10.1.4",
     "textlint-rule-general-novel-style-ja": "^1.3.0",
     "textlint-rule-ja-hiragana-keishikimeishi": "^1.0.2",

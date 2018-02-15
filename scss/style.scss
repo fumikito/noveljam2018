@@ -91,11 +91,63 @@ footer{
 		text-align: center;
 		a:link, a:visited{
 			color: #888;
-			text-decoration: undeline;
+			text-decoration: underline;
 		}
 		a:hover, a:active{
 			color: #ccc;
 			text-decoration: none;
+		}
+	}
+}
+
+.backdrop{
+	display: none;
+	.read &{
+		display: block;
+	}
+	position: absolute;
+	z-index: 10000;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, .4);
+	.question{
+		font-family: sans-serif;
+		position: absolute;
+		box-sizing: border-box;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 300px;
+		padding: 10px;
+		background: #ffffff;
+		box-shadow: 0 0 5px 5px rgba(0, 0, 0, .2);
+	}
+	.button{
+		cursor: pointer;
+		border: 1px solid #eee;
+		padding: 10px 15px;
+		border-top: none;
+		transition: background-color .3s linear, color .3s linear;
+		&:first-child{
+			border-top: 1px solid #eee;
+		}
+		.off{
+			color: #888;
+		}
+		.on{
+			display: none;
+		}
+		&:hover{
+			background: #f9f9f9;
+			.on{
+				color: lightseagreen;
+				display: inline-block;
+			}
+			.off{
+				display: none;
+			}
 		}
 	}
 }

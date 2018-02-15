@@ -5,7 +5,7 @@ body {
   position: relative;
   padding: 2cm; }
 
-header, footer {
+header, footer, .backdrop {
   font-family: sans-serif;
   display: none; }
 
